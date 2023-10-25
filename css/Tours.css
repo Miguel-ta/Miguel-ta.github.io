@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/Fondo-tours.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header1,
+.header2,
+.header3{
+    width: 100vw;
+    min-height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.header1::before,
+.header2::before,
+.header3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 32, 42, 0.6); /* Color de fondo con opacidad */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido principal */
+  }
+
+.header1{
+    background-image: url(../img/Faro-cabo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.header2{
+    background-image: url(../img/punta3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+.header3{
+    background-image: url(../img/cabo-vela4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.header1 h4,
+.header2 h4,
+.header3 h4{
+    font-size: 2rem;
+    margin-top: 1rem;
+    color:white;
+}
+.header1 h3,
+.header2 h3,
+.header3 h3{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    color:white;
+}
+
+.header1 h1,
+.header2 h1,
+.header3 h1{
+    font-size: 3rem;
+    color: #F1C40F;
+}
+
+.titulo{
+    margin:2rem 0;
+    text-align: center;
+    font-size: 2.7rem;
+    color: #F1C40F;
+    border-radius: 40%;
+    background-color: #2E4053;
+    height: 4rem;
+}
+
+.cabo-img{
+    width: 32rem;
+    height: 26rem;
+    margin:2rem auto;
+}
+.mayapo-img{
+    width: 32rem;
+    height: 26rem;
+    margin:2rem auto;
+}
+
+.punta-img{
+    width: 32rem;
+    height: 26rem;
+    margin:2rem auto;
+}
+
+.section1, 
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(253,254,254, 0.9);
+}
+.section1 h1{
+    margin-top:2rem;
+    font-size: 2.3rem;
+}
+
+.section1-arti1,
+.section1-arti2{
+    max-width: 90vw;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.p1-article1{
+    font-weight: bold;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.section2 h1{
+    width: 100vw;
+    text-align: center;
+    margin:2rem  0;
+    font-size: 2.5rem;
+    color: #F1C40F;
+    border-radius: 40%;
+    background-color: #2E4053;
+    height: 3rem;
+
+}
+
+.section2-arti1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin-bottom:2rem;
+    font-size: 1.7rem;
+}
+
+.arti1-div1{
+  text-align: center;
+ background-color:#F1C40F;
+ border-radius: 20%;
+ color: #2E4053;
+ font-weight: bold;
+}
+
+.div1{
+   height: 15vh;
+   width: 32vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.div2{
+    height: 15vh;
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section2-arti2{
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    font-size: 1.8rem;
+}
+
+.section2-arti2 h2{
+    margin: 3rem 0;
+}
+
+.section2-arti2 ul{
+    width: 80vw;
+}
+
+.section2-arti2 ul li{
+    margin-bottom: 2rem;
+}
+
+.section2-h2{
+    background-color: #F1C40F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    height: 5vh;
+    width: 32vw;
+    border-radius:20%;
+
+}
+
+
+.footer1{
+    min-height: 15vh;
+    width: 100vw;
+    background-color: #2E4053;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.img-footer{
+   width: 2rem;
+   margin-right: 1rem;
+   margin-left: 1rem;
+}
+
+.footer-correo{
+  display: flex;
+  align-items: center;
+}
+
+.footer-redes{
+  display: flex;
+  align-items: center;
+}

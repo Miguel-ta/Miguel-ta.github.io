@@ -1,0 +1,49 @@
+.header1,.header2,.header3,.main1,.footer1,
+.section1,.section2{
+    width: 1250px;
+    margin:0 auto;
+}
+
+.header1,.header2,.header3{
+    min-height: 90vh;
+}
+
+.section1-arti1{
+    width: 40vw;
+    margin-left:3rem;
+    justify-content: flex-start;
+}
+
+.section1-arti2{
+    width: 20vw;
+    justify-content: flex-start;
+    margin-left: 8rem;
+}
+
+.header1 h4,
+.header2 h4,
+.header3 h4{
+    font-size: 5rem;
+  }
+  
+  .header1 h1,
+  .header2 h1,
+  .header3 h1{
+    font-size: 7rem;
+  }
+
+  .cabo-img{
+    width: 45rem;
+    height: 38rem;
+   
+}
+.mayapo-img{
+    width: 45rem;
+    height: 38rem;
+    margin-top: 5rem;
+}
+
+.punta-img{
+    width: 23rem;
+    height: 17rem;
+}

@@ -1,0 +1,10 @@
+.header1,.main1,.footer1,
+.section1,.section2,.section3{
+    width: 1000px;
+    margin:0 auto;
+}
+
+.header1{
+    min-height: 80vh;
+}
+

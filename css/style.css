@@ -1,0 +1,324 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/icono-taxi2.png");
+    background-repeat: repeat;
+    background-size: 6% auto;
+}
+
+
+
+.header1 {
+    position: relative;
+    width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    
+  }
+  
+  .header1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(251, 195, 2, 0.9); /* Color de fondo con opacidad */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido principal */
+  }
+  
+  .header1{
+    background-image:  url(../img/fondo-header.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2; 
+ }
+
+.header-foto{
+    width: 12rem;
+    border-radius: 50%;
+    box-shadow: 0.9rem 0.3rem 0.9rem rgba(0, 0, 0, 0.9);
+    border: 0.4rem solid  black ;
+}
+
+.main1{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.section1{
+    min-height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(253,254,254, 0.8);
+    
+}
+
+.section1 h2 {
+    margin: 5rem 0;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    color: #20436b;
+  }
+
+  .img-servicio{
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+
+.img-ubicacion{
+   width: 1.5rem;
+   margin-right: 1rem;
+}
+
+  .img-riohacha{
+    width: 14rem;
+  }
+
+  .img-aeropuerto{
+    width: 14rem;
+  }
+
+  .img-camarones{
+    width: 14rem;
+  }
+
+  .img-ubica{
+    background-image: url(../img/img-ubica.jpg);
+    background-repeat: no-repeat;
+  }
+  .img-avion{
+    background-image: url(../img/avianca.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .img-mayapo{
+    background-image: url(../img/mayapo.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .img-flamencos{
+    background-image: url(../img/fondo-flamenco.jpg);
+    background-repeat: no-repeat;
+  }
+
+
+  details { 
+    background-image: url(../img/cabo.jpeg);
+    width: 80vw;
+    margin-bottom: 5rem;   
+    border-radius: 10px;  
+    border: 1px solid #d8e0e9;
+    color: #062344;
+    position: relative;  
+  }
+
+  details summary {  
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 1rem;
+    cursor: pointer;
+    list-style: none;
+    border-radius: 10px;  
+    background-color: rgba(244, 247, 246, 0.5);
+  }
+
+  details table tr td{
+    padding: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    border-left: 2px solid #364f6b;
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+  
+  details:hover,
+  details[open] {
+    box-shadow: 5px 5px 15px #d9d9d9;
+  }
+  
+  details[open] {
+    background: #ffffff;
+  }
+  
+  details[open] summary {
+    font-weight: 600;
+  }
+  
+  details summary::before {
+      position: absolute;
+      content: "👇";    
+      font-size: 1.75rem;
+      top: 10px;
+      right: 16px;  
+  }
+  
+  details[open] summary::before {
+    -webkit-animation: rotate 0.6s ease-in-out both;
+            animation: rotate-emoji 0.6s ease-in-out both;
+  }
+  
+  @keyframes rotate-emoji {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+
+  .section2{
+    background-color: rgba(251, 195, 2, 0.9);
+    min-height: 100vh;
+    width: 100vw;
+    color: #20436b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+
+.section2 h2{
+   font-size: 2.8rem;
+   text-align: center;
+}
+.section2 h3{
+    font-size: 1.8rem;
+    text-align: center;
+ }
+
+.btn-menu4{
+    width: 80vw;
+    height: 4.5rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+    border:0;
+    border-radius: 1rem;
+    cursor: pointer;  
+}
+
+.btn-menu4 p{
+    background-color: rgba(244, 247, 246, 0.5);
+    width: 25rem;
+    margin:0 auto;
+}
+.main-aliado{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+.img-punta{
+    background-image: url(../img/img-punta.jpg);
+}
+
+.img-cabo{
+    background-image: url(../img/img-cabo3.jpg);
+}
+
+.img-pasadia{
+    background-image:url(../img/img-pasadia1.jpg);
+}
+.img-punta2{
+    background-image: url(../img/img-afanp.jpg);
+}
+
+.btn-menu4 p:hover{
+    background-color: rgba(244, 247, 246, 10);
+    color:rgba(0, 37, 55, 0.8);
+}
+
+.section3{
+    min-height: 50vh;
+    width: 100vw;
+    color: #20436b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(253,254,254, 0.8);
+}
+
+.section3 h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section3 p{
+    width: 70vw;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.section3 a {
+    text-decoration: none;
+}
+
+.section3 button{
+    display: flex;
+    align-items: center;
+    background-color: #2a598f;
+    color: #072241;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.section3 button:hover{
+  background-color: transparent; 
+
+
+}
+
+.ico-what{
+    max-width: 5rem;
+    margin-right: 1rem;
+ }
+
+.footer1{
+    min-height: 10vh;
+    width: 100vw;
+    background-color: #2E4053;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.img-footer{
+   width: 2rem;
+   margin-right: 1rem;
+   margin-left: 1rem;
+}
+
+.footer-correo{
+  display: flex;
+  align-items: center;
+}
+
+.footer-redes{
+  display: flex;
+  align-items: center;
+}
+

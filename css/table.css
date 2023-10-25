@@ -1,0 +1,57 @@
+
+.header-foto{
+    width: 15rem; 
+}
+
+details { 
+    width: 50rem;
+    
+}
+
+.btn-menu4{
+    width: 50rem;
+}
+
+details table tr td{
+   font-size: 1.6rem;
+}
+
+.img-riohacha{
+    width: 30rem;
+  }
+
+  .img-aeropuerto{
+    width: 30rem;
+  }
+
+  .img-camarones{
+    width: 30rem;
+  }
+
+
+.cabo-img{
+    width: 40rem;
+    height: 32rem;
+   
+}
+
+.punta-img{
+    width: 40rem;
+    height: 32rem;
+}
+.mayapo-img{
+    width: 40rem;
+    height: 32rem;
+}
+
+.header1 h4,
+.header2 h4,
+.header3 h4{
+  font-size: 3rem;
+}
+
+.header1 h1,
+.header2 h1,
+.header3 h1{
+  font-size: 4rem; 
+}
